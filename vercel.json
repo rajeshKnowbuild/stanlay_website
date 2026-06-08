@@ -8,15 +8,6 @@
     }
   },
 
-  "cleanUrls": true,
-  "trailingSlash": false,
-
-  "rewrites": [
-    { "source": "/products", "destination": "/products.html" },
-    { "source": "/contact",  "destination": "/contact.html"  },
-    { "source": "/",         "destination": "/products.html" }
-  ],
-
   "headers": [
     {
       "source": "/(.*)",
