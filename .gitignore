@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vercel build output
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp / runtime
+/tmp/
+
+# Build outputs
+/dist/
+/build/
+
+# PHP composer (if added later)
+vendor/
+composer.lock
